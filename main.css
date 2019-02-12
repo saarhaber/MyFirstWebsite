@@ -1,0 +1,38 @@
+/*      W R A P P E R
+-----------------------------*/
+#wrapper {
+  width: 800px;
+  margin: 20px auto;
+}
+
+/*      H E A D E R
+-----------------------------*/
+header {
+  width: 800px;
+  height: 100px;
+  background-color: blue;
+}
+
+/*      N A V  B A R
+-----------------------------*/
+#navBar {
+  width: 800px;
+  height: 30px;
+  background-color: green;
+}
+
+/*      C O N T E N T
+-----------------------------*/
+#content {
+  width: 800px;
+  height: 500px;
+  background-color: yellow;
+}
+
+/*      F O O T E R
+-----------------------------*/
+footer {
+  width: 800px;
+  height: 30px;
+  background-color: green;
+}
