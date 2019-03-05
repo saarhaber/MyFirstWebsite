@@ -1,7 +1,7 @@
 /*      B O D Y
 -----------------------------*/
 body {
-  background-color: #7e9a9a;
+
 }
 
 
@@ -15,44 +15,51 @@ body {
 /*      H E A D E R
 -----------------------------*/
 header {
-  width: 800px;
-  height: 100px;
-  background-color: #f6d8ac;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(pic1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 
 }
-#mainT {
-  margin: 20px auto;
-  padding: 30px 0 0 150px;
-  font-size: 35px;
-  font-style: oblique;
+
+/* #mainT {
+  position: inherit;
+} */
+
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
 }
 
-/*      N A V  B A R
------------------------------*/
-#navBar {
-  width: 800px;
-  height: 30px;
-  background-color: #db9833;
+.main-nav li
+{
+  display: inline-block;
 }
 
-/*      C O N T E N T
------------------------------*/
-#content {
-  width: 800px;
-  height: 500px;
-  background-color: #2a6592;
+.main-nav li a
+{
+    color: white;
+    text-decoration:none;;
+    padding: 5px 20px;
+    font-family: "Robboto", sans-serif;
+    font-size: 15px;
 }
 
-#contentTxt {
-  margin: 0;
-  padding: 20px 0 0 20px;
+.main-nav li.active a
+{
+  border: 1px solid white;
 }
-/*      F O O T E R
------------------------------*/
-footer {
-  width: 800px;
-  height: 30px;
-  background-color: #8ec3eb;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    float: left;
 }
