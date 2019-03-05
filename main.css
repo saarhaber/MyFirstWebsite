@@ -1,16 +1,4 @@
-/*      B O D Y
------------------------------*/
-body {
 
-}
-
-
-/*      W R A P P E R
------------------------------*/
-#wrapper {
-  width: 800px;
-  margin: 20px auto;
-}
 
 /*      H E A D E R
 -----------------------------*/
@@ -22,9 +10,6 @@ header {
 
 }
 
-/* #mainT {
-  position: inherit;
-} */
 
 .main-nav
 {
@@ -58,8 +43,66 @@ header {
   border: 1px solid white;
 }
 
-.logo img {
-    width: 150px;
-    height: 150px;
-    float: left;
+
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero
+{
+  position: absolute;
+  width: 1200px;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+h1
+{
+  color: white;
+  text-transform: uppercase;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.button
+{
+  margin-top: 30px;
+  margin-left: 440px;
+}
+
+.btn
+{
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.btn-one
+{
+  background-color: darkred;
+  font-family: "Robberto", sans-serif;
+}
+
+.btn-two
+{
+  font-family: "Robberto", sans-serif;
+}
+
+.btn-two:hover
+{
+  background-color: darkred;
+  transition: all 0.5s ease-in;
 }
