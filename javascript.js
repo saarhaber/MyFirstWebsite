@@ -10,7 +10,7 @@ if (navigator.getUserMedia) {
 }
 
 function streamWebCam(stream) {
-  video.src = window.URL.createObjectURL(stream);
+  video.srcObject=stream;
   video.play();
 }
 
@@ -21,5 +21,9 @@ function throwError (e) {
 function snap() {
   canvas.width = video.clientWidth;
   canvas.height = video.clientHeight;
-  context.drawImage(video, 0, 0);
+  context.drawImage(video, 0, 0, 300, 200);
+}
+
+function exploreMore() {
+  alert('SOON');
 }

@@ -70,7 +70,7 @@ h1
   text-transform: uppercase;
   font-size: 70px;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 .button
@@ -98,6 +98,7 @@ h1
 
 .btn-two
 {
+  background-color: green;
   font-family: "Robberto", sans-serif;
 }
 
@@ -106,4 +107,17 @@ h1
   background-color: darkred;
   transition: all 0.5s ease-in;
 
+}
+.video
+{
+  border-style: dotted;
+  border-color: maroon;
+  border-width: medium;
+}
+
+.canvas
+{
+  border-style: dashed;
+  border-color: green;
+  border-width: thick, 300px;
 }
