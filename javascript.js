@@ -27,3 +27,5 @@ function snap() {
 function exploreMore() {
   alert('SOON');
 }
+
+/* edit the second button to open a youtube video*/
