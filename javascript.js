@@ -25,7 +25,7 @@ function snap() {
 }
 
 function exploreMore() {
-  alert('SOON');
+  alert('Hire Me!');
 }
 
 /* edit the second button to open a youtube video*/
