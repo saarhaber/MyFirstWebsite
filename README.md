@@ -6,3 +6,4 @@ Using sources such as SoloLearn, FreeCodeCamp and YouTube videos.
 
 Last Update:
 03/09/19: Video capturing (snapping a picture) is now available on the site!
+03/21/19: made an outline for adding background playing music
