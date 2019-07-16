@@ -26,5 +26,6 @@ function snap() {
 
 function exploreMore() {
   window.open( "https://github.com/saarhaber" );
-  alert('Hire Me!');
 }
+
+/* edit the second button to open a youtube video*/
