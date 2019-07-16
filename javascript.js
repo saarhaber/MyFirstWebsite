@@ -25,5 +25,6 @@ function snap() {
 }
 
 function exploreMore() {
-  alert('SOON');
+  window.open( "https://github.com/saarhaber" );
+  alert('Hire Me!');
 }
