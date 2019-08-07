@@ -2,38 +2,38 @@
 
 /*      H E A D E R
 -----------------------------*/
-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(pic1.jpg);
-  height: 100vh;
+body {
+  background-image: url(pic1.jpg);
+  height: 90vh;  
   background-size: cover;
   background-position: center;
+  font-family: monospace;
+
 }
 
 
-.main-nav
-{
-  float: right;
-  list-style: none;
-  margin-top: 30px;
+ul {
+  list-style-type: none;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+	position: relative;
+	border-width: 0 0 2px 0;
+} 
+
+li a {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+	color: rgba(0, 0, 0, 0.678);
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px 20px 20px 20px;
 }
 
-
-
-.main-nav a
-{
-    color: white;
-    text-decoration:none;;
-    padding: 5px 20px;
-    font-family: "Robboto", sans-serif;
-    font-size: 15px;
-}
-
-
-
-body
-{
-    font-family: monospace;
-}
 
 .row
 {
@@ -52,10 +52,13 @@ body
 
 h1
 {
-  color: white;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
-  font-size: 70px;
+  font-size: 60px;
+  display: flex;
+  box-flex: wrap;
   text-align: center;
+  justify-content: center;
   margin-top: 150px;
 }
 
@@ -107,4 +110,75 @@ h1
   border-style: dashed;
   border-color: green;
   border-width: thick, 300px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 200px;
+  perspective: 10000px;
+  position: fixed;
+  top: 180px;
+  right: 120px;
+
+  /* Remove this if you don't want the 3D effect */
+}
+
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 110%;
+  height: 174%;
+  backface-visibility: hidden;
+  border-radius: 80px;
+}
+
+.flip-card-back {
+border: 1px solid #000000;
+}
+
+/* Style the back side */
+.flip-card-back {
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  font-family: monospace;
+  font-size: 20px;
+  background-color: rgb(241, 241, 212, 0.8);
+  padding: 0px 10px;
+}
+
+h5 {
+  font-size: 18px;
+  font-family: monospace;
+  position: fixed;
+  top: 100px;
+  right: 160px;
+}
+
+h4 {
+  background-color: rgba(221, 188, 147, 0.37);
+  border: #000000 solid 0.5px 1px;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: fixed;
+  bottom: 20px;
+  left: 50px;
 }
