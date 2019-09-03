@@ -50,13 +50,13 @@ body {
   
   
   .pixelateP {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .charityP {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
@@ -79,7 +79,7 @@ body {
   .flip-card-proj {
     background-color: transparent;
     width: 350px;
-    height: 200px;
+    height: 220px;
     perspective: 10000px;
   
   }
